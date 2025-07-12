@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="sheet.css">
+        <script src="validation.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+
+                <div class="header_left">
+                    <div class="header_text">
+                        <a href="index.html">Intern House</a>
+                    </div>
+                </div>
+
+                <div class="header_center">
+
+                </div>
+
+                <div class="header_right">
+                    <div class="log_reg">
+                        <ul class="list_log_reg">
+
+                            <li class="reg">		
+                                <a href="">Register</a>
+                                <ul>
+                                    <li>
+                                        <a href="register_student.html">as a Student</a>
+                                    </li>
+                                    <li>
+                                        <a href="register_employer.html">as a Employer</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="display">
+
+                <div class="display_login_top">
+                    <div class="login_text">
+                        <span class="msg1">Hello! </span>
+                        <span class="msg2">Welcome Back</span>
+                    </div>
+                </div>
+
+                <div class="display_login_bottom">
+
+                    <div class="login_left">
+                        <form class="stu_log_form" name="stu_log_form" onsubmit="return stu_validation()" method="POST" action="login_stu.jsp">
+                            <span class="logform_top_text">Student</span>
+
+                            <div class="log_form">
+                                <input class="email" type="text" name="email" placeholder="Email">
+                                <input class="password" type="password" name="password" placeholder="Password">
+                                <p class="link_text"><a href="forgot_your_psw_stu.html">Forgot Password?</a></p>
+                                <input class="login_button" type="submit" name="login_button" value="Login">
+                            </div>
+
+                            <div class="logform_bottom_text">
+                                <a href="register_student.html">New to Intern House? Register</a>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="login_right">
+                        <form class="emp_log_form" name="emp_log_form" onsubmit="return emp_validation()" method="POST" action="login_emp.jsp">
+                            <span class="logform_top_text">Employer</span>
+
+                            <div class="log_form">
+                                <input class="email" type="text" name="email" placeholder="Email">
+                                <input class="password" type="password" name="password" placeholder="Password">
+                                <p class="link_text"><a href="forgot_your_psw_emp.html">Forgot Password?</a></p>
+                                <input class="login_button" type="submit" name="login_button" value="Login">
+                            </div>
+
+                            <div class="logform_bottom_text">
+                                <a href="register_employer.html">New to Intern House? Register</a>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer">
+
+                <div class="footer_left">
+                    <div class="footer_about_list">
+                        <ul class="about_list">
+                            <li class="top">Intern House</li>
+                            <li><a href="about_us.html">About us</a></li>
+                            <li><a href="terms&condition.html">Terms & Conditions</a></li>
+                            <li><a href="contact_us.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer_center">
+                    <div class="footer_stream_list">
+                        <ul class="stream_list">
+                            <li class="top">Internship by Stream</li>
+                            <li><a href="">Computer Science Internship</a></li>
+                            <li><a href="">Marketing Internship</a></li>
+                            <li><a href="">Finance Internship</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer_right">
+                    <div class="footer_text">&copy; Copyright 2022 Intern House</div>
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+</html>

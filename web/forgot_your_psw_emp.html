@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="sheet.css">
+        <script src="validation.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+
+                <div class="header_left">
+                    <div class="header_text">
+                        <a href="index.html">Intern House</a>
+                    </div>
+                </div>
+
+                <div class="header_center">
+
+                </div>
+
+                <div class="header_right">
+                    <div class="log_reg">
+                        <ul class="list_log_reg">
+                            <li>
+                                <a href="login.html">Login</a>
+                            </li>	
+                            <li class="reg">		
+                                <a href="">Register</a>
+                                <ul>
+                                    <li>
+                                        <a href="register_student.html">as a Student</a>
+                                    </li>
+                                    <li>
+                                        <a href="register_employer.html">as a Employer</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="display">
+
+                <div class="forgot_psw_left">
+                    <div class="forgot_psw_top">
+                        <p class="text1">Forgot Password?</p>
+                        <p class="text2">Please enter your e-mail address and ISO Certification no.</p>
+                    </div>
+
+                    <div class="forgot_psw_bottom">
+                        <form class="forgot_psw_form" name="emp_forgot_psw_form" onsubmit="return emp_forgot_psw_validation()" method="POST" action="forgot_psw_emp.jsp">
+                            <input class="email" type="text" name="email" placeholder="Official Email Id">
+                            <input class="cin" type="text" name="cin" placeholder="Company identification no.(CIN)">
+                            <input class="submit_button" type="submit" name="submit_button" value="Reset Password">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="forgot_psw_right">
+                    <div class="forgot_psw_logo_emp">
+                        <div class="forgot_psw_image_emp"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer">
+
+                <div class="footer_left">
+                    <div class="footer_about_list">
+                        <ul class="about_list">
+                            <li class="top">Intern House</li>
+                            <li><a href="about_us.html">About us</a></li>
+                            <li><a href="terms&condition.html">Terms & Conditions</a></li>
+                            <li><a href="contact_us.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer_center">
+                    <div class="footer_stream_list">
+                        <ul class="stream_list">
+                            <li class="top">Internship by Stream</li>
+                            <li><a href="">Computer Science Internship</a></li>
+                            <li><a href="">Marketing Internship</a></li>
+                            <li><a href="">Finance Internship</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer_right">
+                    <div class="footer_text">&copy; Copyright 2022 Intern House</div>
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+</html>

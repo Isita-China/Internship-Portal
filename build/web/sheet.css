@@ -1,0 +1,3581 @@
+/*Index page*/
+
+*
+{
+    margin:0px;
+    padding:0px;
+}
+body,html
+{
+    height:100%;
+    width:100%;
+}
+.container
+{
+    width:100%;
+    height:100%;	
+    font-family:cambria;
+}
+.header
+{
+    width:100%;
+    height:12%;
+    background-color:#C6CBEF;	
+    position:fixed;
+}
+.header_left
+{
+    width:25%;
+    height:100%;
+    float:left;
+}
+.header_text
+{
+    width:60%;
+    height:60%;
+    float:left;
+    margin-top:5%;
+    margin-left:21%;
+    font-family:forte;
+    font-size:30px;
+    color:#800080;
+    cursor:pointer;
+}
+.header_text a
+{
+    text-decoration:none;
+}
+.header_center
+{
+    width:44%;
+    height:100%;
+    float:left;
+}
+.header_right
+{
+    width:30%;
+    height:100%;
+    float:left;
+}
+.log_reg
+{
+    width:80%;
+    height:100%;
+    margin-left:1%;
+}
+ul
+{
+    list-style-type:none;
+}
+ul.list_log_reg li
+{
+    width:44%;
+    height:45%;
+    float:left;
+    margin-top:5%;
+    margin-left:6%;	
+}
+ul.list_log_reg  a
+{
+    width:100%;
+    height:100%;
+    display:block;
+}
+ul.list_log_reg li.reg ul li
+{
+    width:100%;
+    height:100%;
+    display:block;
+    margin-left:.2px;
+    display:none;
+    margin-top:1px;
+}
+ul.list_log_reg li.reg:hover ul li
+{
+    display:block;
+}
+.header_right .log_reg a
+{
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    font-size:20px;
+    color:#ffffff;
+    line-height:30px;
+    background-color:#494CA2;
+    text-align:center;
+    display:block;
+}
+.header_right .log_reg a:hover
+{
+    background-color:#8186D5;
+}
+.display
+{
+    width:100%;
+    height:73%;
+    background-color:#E3E7F1;
+    padding-top:78px;
+}
+.display_top
+{
+    width:100%;
+    height:30%;
+    display:inline-block;
+}
+.display_top .text1
+{
+    width:40%;
+    font-size:25px;
+    margin:2.2% auto;
+    text-align:center;
+}
+.search_form
+{
+    width:40%;
+    height:30%;
+    margin:2.7% auto;
+}
+.search_logo
+{
+    width:10%;
+    height:100%;
+    float:left;
+}
+.search_image
+{
+    width:100%;
+    height:100%;
+    background-image:url('Search.jpg');
+    background-size:100% 100%;
+}
+.search
+{
+    width:75%;
+    height:100%;
+    float:left;
+}
+.search_button
+{
+    width:15%;
+    height:100%;
+    float:left;
+    font-size:17px;
+    cursor:pointer;
+    background-color:#8186D5;
+    border:1px solid #8186D5;
+    color:#ffffff;
+}
+.search_button:hover
+{
+    background-color:#494CA2;
+}
+.display_bottom
+{
+    width:100%;
+    height:65%;
+    display:inline-block;
+}
+.display_bottom .text2
+{
+    width:40%;
+    font-size:20px;
+    margin:1.5% auto;
+    text-align:center;
+}
+.city_logo
+{
+    width:100%;
+    height:25%;
+    margin-top:1%;
+}
+.kolkata_logo
+{
+    width:10%;
+    height:100%;
+    float:left;
+    margin-left:6%;
+    border-radius:10px;
+}
+.delhi_logo,.bangalore_logo,.mumbai_logo,.hyderabad_logo,.chennai_logo,.international_logo
+{
+    width:10%;
+    height:100%;
+    float:left;
+    margin-left:3%;
+    border-radius:10px;
+}
+.kolkata_logo a
+{
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    font-size:15px;
+    color:#ffffff;
+    line-height:70px;
+    background-color:#800080;
+    text-align:center;
+    display:block;
+    border-radius:10px;
+}
+.delhi_logo a
+{
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    font-size:15px;
+    color:#ffffff;
+    line-height:70px;
+    background-color:#800080;
+    text-align:center;
+    display:block;
+    border-radius:10px;
+}
+.bangalore_logo a
+{
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    font-size:15px;
+    color:#ffffff;
+    line-height:70px;
+    background-color:#800080;
+    text-align:center;
+    display:block;
+    border-radius:10px;
+}
+.mumbai_logo a
+{
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    font-size:15px;
+    color:#ffffff;
+    line-height:70px;
+    background-color:#800080;
+    text-align:center;
+    display:block;
+    border-radius:10px;
+}
+.hyderabad_logo a
+{
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    font-size:15px;
+    color:#ffffff;
+    line-height:70px;
+    background-color:#800080;
+    text-align:center;
+    display:block;
+    border-radius:10px;
+}
+.chennai_logo a
+{
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    font-size:15px;
+    color:#ffffff;
+    line-height:70px;
+    background-color:#800080;
+    text-align:center;
+    display:block;
+    border-radius:10px;
+}
+.international_logo a
+{
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    font-size:15px;
+    color:#ffffff;
+    line-height:70px;
+    background-color:#800080;
+    text-align:center;
+    display:block;
+    border-radius:10px;
+}
+.category_logo
+{
+    width:100%;
+    height:25%;
+    margin-top:1%;
+}
+.engineering_logo
+{
+    width:10%;
+    height:100%;
+    float:left;
+    margin-left:6%;
+    border-radius:10px;
+}
+.ngo_logo,.mba_logo,.design_logo,.science_logo,.media_logo,.humanities_logo
+{
+    width:10%;
+    height:100%;
+    float:left;
+    margin-left:3%;
+    border-radius:10px;
+}
+.engineering_logo a
+{
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    font-size:15px;
+    color:#ffffff;
+    line-height:70px;
+    background-color:#1295c9;
+    text-align:center;
+    display:block;
+    border-radius:10px;
+}
+.ngo_logo a
+{
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    font-size:15px;
+    color:#ffffff;
+    line-height:70px;
+    background-color:#1295c9;
+    text-align:center;
+    display:block;
+    border-radius:10px;
+}
+.mba_logo a
+{
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    font-size:15px;
+    color:#ffffff;
+    line-height:70px;
+    background-color:#1295c9;
+    text-align:center;
+    display:block;
+    border-radius:10px;
+}
+.design_logo a
+{
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    font-size:15px;
+    color:#ffffff;
+    line-height:70px;
+    background-color:#1295c9;
+    text-align:center;
+    display:block;
+    border-radius:10px;
+}
+.science_logo a
+{
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    font-size:15px;
+    color:#ffffff;
+    line-height:70px;
+    background-color:#1295c9;
+    text-align:center;
+    display:block;
+    border-radius:10px;
+}
+.media_logo a
+{
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    font-size:15px;
+    color:#ffffff;
+    line-height:70px;
+    background-color:#1295c9;
+    text-align:center;
+    display:block;
+    border-radius:10px;
+}
+.humanities_logo a
+{
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    font-size:15px;
+    color:#ffffff;
+    line-height:70px;
+    background-color:#1295c9;
+    text-align:center;
+    display:block;
+    border-radius:10px;
+}
+.footer
+{
+    width:100%;
+    height:15.1%;
+    background-color:#494CA2;
+}
+.footer_left
+{
+    width:35%;
+    height:100%;
+    float:left;
+}
+.footer_about_list
+{
+    width:50%;
+    height:100%;
+    float:left;
+    margin-left:18%;	
+}
+.footer_center
+{
+    width:39.5%;
+    height:100%;
+    float:left;
+}
+.footer_stream_list
+{
+    width:60%;
+    height:100%;
+    float:left;
+    margin-left:2%;	
+}
+.admin
+{
+    width:37%;
+    height:100%;
+    float:left;
+}
+.admin .admin_text
+{
+    margin-top:29%;
+    margin-left:15%;	
+    font-size:18px;
+    font-weight:bold;
+}
+.admin .admin_text a
+{
+    text-decoration:none;
+    color:#000000;
+}
+.admin .admin_text a:hover
+{
+    text-decoration:underline;
+}
+.footer .top
+{
+    font-weight:bold;
+    font-size:16px;
+}
+.footer ul li a
+{
+    text-decoration:none;
+    color:#ffffff;
+}
+.footer ul li a:hover
+{
+    color:#C6CBEF;
+    text-decoration:underline;
+}
+.footer_right
+{
+    width:25%;
+    height:100%;
+    float:left;
+}
+.footer_text
+{
+    width:70%;
+    height:20%;
+    float:right;
+    margin-top:18%;
+    margin-right:10%;
+    font-size:15px;
+}
+
+/*Login page*/
+
+.display .display_login_top
+{
+    width:100%;
+    height:15%;
+    display:inline-block;
+}
+.display .display_login_top .login_text
+{
+    width:40%;
+    margin:1% auto;
+    text-align:center;
+}
+.display_login_top .login_text .msg1
+{
+    font-family:lucida calligraphy;
+    font-size:25px;
+    font-weight:bold;
+}
+.display_login_top .login_text .msg2
+{
+    font-family:Berlin Sans FB;
+    color:#800080;
+    font-size:32px;
+    margin-left:2%;
+}
+.display .display_login_bottom
+{
+    width:100%;
+    height:85%;
+    display:inline-block;
+}
+.display_login_bottom .login_left
+{
+    width:50%;
+    height:100%;
+    float:left;
+}
+.display_login_bottom .login_left .stu_log_form
+{
+    width:70%;
+    height:90%;
+    border:2px solid #800080;
+    margin:1% auto;
+}
+.display_login_bottom .login_right
+{
+    width:49.69%;
+    height:100%;
+    float:left;
+}
+.display_login_bottom .login_right .emp_log_form
+{
+    width:70%;
+    height:90%;
+    border:2px solid #800080;
+    margin:1% auto;
+}
+.display_login_bottom .logform_top_text
+{
+    margin-left:5%;
+    font-size:25px;
+}
+.display_login_bottom .log_form
+{
+    width:100%;
+}
+.log_form .email, .log_form .password
+{
+    width:50%;
+    height:10%;
+    text-align:center;
+    margin-left:25%;
+    margin-top:5%;
+    font-size:15px;
+}
+.log_form .link_text
+{
+    margin-left:49%;
+    margin-top:3%;
+}
+.log_form .link_text a
+{
+    color:#8186D5;
+    text-decoration:none;
+}
+.log_form .link_text a:hover
+{
+    color:#494CA2;
+    text-decoration:underline;
+}
+.log_form .login_button
+{
+    width:20%;
+    height:10%;
+    margin-left:40%;
+    margin-top:5%;
+    font-size:17px;
+    cursor:pointer;
+    background-color:#8186D5;
+    border:1px solid #8186D5;
+    color:#ffffff;
+}
+.log_form .login_button:hover
+{
+    background-color:#494CA2;
+}
+.display_login_bottom .logform_bottom_text
+{
+    width:50%;
+    height:15%;
+    margin-top:5%;
+    margin-left:25%;
+    font-size:20px;
+    border:1px solid #494CA2;
+    text-align:center;
+}
+.logform_bottom_text a
+{
+    color:#800080;
+    text-decoration:none;
+}
+.logform_bottom_text a:hover
+{
+    text-decoration:underline;
+}
+
+/*Student Registration page*/
+
+.display .reg_left
+{
+    width:50%;
+    height:100%;
+    float:left;
+}
+.reg_left .reg_left_top
+{
+    width:100%;
+    height:15%;
+    display:inline-block;
+}
+.reg_left_top .reg_text
+{
+    margin-top:4%;
+    display:block;
+    font-size:30px;
+    text-align:center;
+    color:#800080;
+    font-family:Berlin Sans FB;
+}
+.reg_left .reg_left_bottom
+{
+    width:100%;
+    height:85%;
+}
+.reg_left_bottom .reg_logo
+{
+    width:100%;
+    height:100%;
+    margin-left:12%;
+}
+.reg_left_bottom .reg_logo .reg_image
+{
+    width:100%;
+    height:100%;
+    background-image:url('Internship.jpg');
+    background-size:100% 100%;
+}
+.display .reg_right
+{
+    width:49.7%;
+    height:100%;
+    float:left;
+}
+.reg_right .stu_reg_form
+{
+    border:2px solid #800080;
+    width:60%;
+    height:80%;
+    margin-top:7%;
+    margin-left:28%;
+}
+.reg_right .stu_reg_form .reg_form
+{
+    width:100%;
+    height:70%;
+    display:inline-block;
+}
+.stu_reg_form .reg_form .reg_form_name
+{
+    width:100%;
+    margin-top:5%;
+    text-align:center;
+}
+.stu_reg_form .reg_form .reg_form_name .text1
+{
+    font-size:22px;
+}
+.stu_reg_form .reg_form .reg_form_name .fullname
+{
+    width:55%;
+    height:12%;
+    margin-left:5%;
+}
+.stu_reg_form .reg_form .reg_form_email
+{
+    width:100%;
+    margin-top:4%;
+    text-align:center;
+}
+.stu_reg_form .reg_form .reg_form_email .text2
+{
+    font-size:22px;
+}
+.stu_reg_form .reg_form .reg_form_email .email
+{
+    width:55%;
+    height:12%;
+    margin-left:15.5%;
+}
+.stu_reg_form .reg_form .reg_form_psw
+{
+    width:100%;
+    margin-top:4%;
+    text-align:center;
+}
+.stu_reg_form .reg_form .reg_form_psw .text3
+{
+    font-size:22px;
+}
+.stu_reg_form .reg_form .reg_form_psw .password
+{
+    width:55%;
+    height:12%;
+    margin-left:6.5%;
+    text-align:center;
+}
+.stu_reg_form .reg_form .reg_form_mob
+{
+    width:100%;
+    margin-top:4%;
+    text-align:center;
+}
+.stu_reg_form .reg_form .reg_form_mob .text4
+{
+    font-size:22px;
+}
+.stu_reg_form .reg_form .reg_form_mob .mob_no
+{
+    width:55%;
+    height:12%;
+    margin-left:5.5%;
+}
+.stu_reg_form .reg_form .reg_button
+{
+    width:35%;
+    height:13%;
+    margin-left:37.5%;
+    margin-top:5%;
+    font-size:17px;
+    cursor:pointer;
+    background-color:#8186D5;
+    border:1px solid #8186D5;
+    color:#ffffff;
+}
+.stu_reg_form .reg_form .reg_button:hover
+{
+    background-color:#494CA2;
+}
+.reg_right .stu_reg_form .regform_bottom_text
+{
+    width:100%;
+    height:30%;
+}
+.stu_reg_form .regform_bottom_text .text5
+{
+    margin-left:2%;
+    font-size:17px;
+}
+.stu_reg_form .regform_bottom_text .text5 a
+{
+    color:#8186D5;
+    text-decoration:none;
+}
+.stu_reg_form .regform_bottom_text .text5 a:hover
+{
+    color:#494CA2;
+    text-decoration:underline;
+}
+.stu_reg_form .regform_bottom_text .text6
+{
+    width:50%;
+    height:50%;
+    margin:4% auto;
+    border:1px solid #494CA2;
+    text-align:center;
+    font-size:20px;
+}
+.stu_reg_form .regform_bottom_text .text6 a
+{
+    color:#800800;
+    font-weight:bold;
+    text-decoration:none;
+}
+.stu_reg_form .regform_bottom_text .text6 a:hover
+{
+    color:#494CA2;
+    text-decoration:underline;
+}
+
+/*Employer Registration page*/
+
+.display .reg_left .reg_left_bottom .reg_emp_logo
+{
+    width:100%;
+    height:100%;
+    margin-left:12%;
+}
+.reg_left_bottom .reg_emp_logo .reg_emp_image
+{
+    width:100%;
+    height:100%;
+    background-image:url('Interns.jpg');
+    background-size:100% 100%;
+}
+.display .reg_right .emp_reg_form
+{
+    border:2px solid #800080;
+    width:65%;
+    height:85%;
+    margin-top:7%;
+    margin-left:23%;
+}
+.reg_right .emp_reg_form .reg_form
+{
+    width:100%;
+    height:70%;
+    display:inline-block;
+}
+.emp_reg_form .reg_form .reg_form_email
+{
+    width:100%;
+    margin-top:5%;
+    text-align:center;
+}
+.emp_reg_form .reg_form .reg_form_email .text1
+{
+    font-size:22px;
+}
+.emp_reg_form .reg_form .reg_form_email .email
+{
+    width:50%;
+    height:12%;
+    margin-left:5%;
+    text-align:center;
+}
+.emp_reg_form .reg_form .reg_form_psw
+{
+    width:100%;
+    margin-top:4%;
+    text-align:center;
+}
+.emp_reg_form .reg_form .reg_form_psw .text2
+{
+    font-size:22px;
+}
+.emp_reg_form .reg_form .reg_form_psw .password
+{
+    width:50%;
+    height:12%;
+    margin-left:18%;
+    text-align:center;
+}
+.emp_reg_form .reg_form .reg_form_name
+{
+    width:100%;
+    margin-top:4%;
+    text-align:center;
+}
+.emp_reg_form .reg_form .reg_form_name .text3
+{
+    font-size:22px;
+}
+.emp_reg_form .reg_form .reg_form_name .comp_name
+{
+    width:50%;
+    height:12%;
+    margin-left:5%;
+}
+.emp_reg_form .reg_form .reg_form_mob
+{
+    width:100%;
+    margin-top:4%;
+    text-align:center;
+}
+.emp_reg_form .reg_form .reg_form_mob .text4
+{
+    font-size:22px;
+}
+.emp_reg_form .reg_form .reg_form_mob .mob_no
+{
+    width:50%;
+    height:12%;
+    margin-left:5%;
+}
+.emp_reg_form .reg_form .reg_button
+{
+    width:35%;
+    height:13%;
+    margin-left:45%;
+    margin-top:5%;
+    font-size:17px;
+    cursor:pointer;
+    background-color:#8186D5;
+    border:1px solid #8186D5;
+    color:#ffffff;
+}
+.emp_reg_form .reg_form .reg_button:hover
+{
+    background-color:#494CA2;
+}
+.reg_right .emp_reg_form .regform_bottom_text
+{
+    width:100%;
+    height:30%;
+}
+.emp_reg_form .regform_bottom_text .text5
+{
+    margin-left:5%;
+    font-size:17px;
+}
+.emp_reg_form .regform_bottom_text .text5 a
+{
+    color:#8186D5;
+    text-decoration:none;
+}
+.emp_reg_form .regform_bottom_text .text5 a:hover
+{
+    color:#494CA2;
+    text-decoration:underline;
+}
+.emp_reg_form .regform_bottom_text .text6
+{
+    width:45%;
+    height:50%;
+    margin:4% auto;
+    border:1px solid #494CA2;
+    text-align:center;
+    font-size:20px;
+}
+.emp_reg_form .regform_bottom_text .text6 a
+{
+    color:#800800;
+    font-weight:bold;
+    text-decoration:none;
+}
+.emp_reg_form .regform_bottom_text .text6 a:hover
+{
+    color:#494CA2;
+    text-decoration:underline;
+}
+
+/*Student and Employer Registration-Successful page*/
+
+.display .success_msg
+{
+   width:50%;
+   height:50%;
+   margin:3% auto;  
+}
+.success_msg .msg
+{
+    font-size:30px;
+    text-align:center;
+}
+.success_msg .msg1
+{
+    font-size:25px;
+    text-align:center;
+    margin-top:2%;
+}
+
+/*Forgot your Password page*/
+
+.display .forgot_psw_left
+{
+    width:50%;
+    height:100%;
+    float:left;
+}
+.forgot_psw_left .forgot_psw_top
+{
+    width:100%;
+    height:25%;
+    display:inline-block;
+}
+.forgot_psw_top .text1
+{
+    width:40%;
+    font-size:30px;
+    margin-left:20%;
+    margin-top:4%;
+    font-weight:bold;
+}
+.forgot_psw_top .text2
+{
+    width:72%;
+    font-size:20px;
+    margin-left:20%;
+    margin-top:2%;
+}
+.forgot_psw_left .forgot_psw_bottom
+{
+    width:100%;
+    height:74.5%;
+}
+.forgot_psw_bottom .forgot_psw_form
+{
+    border:2px solid #800080;
+    width:60%;
+    height:50%;
+    margin-left:20%;
+}
+.forgot_psw_form .email
+{
+    width:70%;
+    height:22%;
+    margin-left:15%;
+    margin-top:2%;
+    text-align:center;
+    font-size:18px;
+}
+.forgot_psw_form .cin
+{
+    width:70%;
+    height:22%;
+    margin-left:15%;
+    margin-top:2%;
+    text-align:center;
+    font-size:18px;
+}
+.forgot_psw_form .dobfull
+{
+    margin-left:15%;
+    margin-top:2%;
+}
+.forgot_psw_form .text3
+{
+    font-size:20px;
+    float:left;
+}
+.forgot_psw_form .dob
+{
+    float:left;
+    margin-left:7.5%;
+}
+.forgot_psw_form .submit_button
+{
+    width:35%;
+    height:20%;
+    margin-left:50%;
+    margin-top:5%;
+    font-size:17px;
+    cursor:pointer;
+    background-color:#8186D5;
+    border:1px solid #8186D5;
+    color:#ffffff;
+}
+.forgot_psw_form .submit_button:hover
+{
+    background-color:#494CA2;
+}
+.display .forgot_psw_right
+{
+    width:50%;
+    height:100%;
+    float:left;
+}
+.forgot_psw_right .forgot_psw_logo_stu
+{
+    width:70%;
+    height:70%;
+    margin:5% auto;
+}
+.forgot_psw_logo_stu .forgot_psw_image_stu
+{
+    width:100%;
+    height:100%;
+    background-image:url('forgot-password.png');
+    background-size:100% 100%;
+}
+.forgot_psw_right .forgot_psw_logo_emp
+{
+    width:50%;
+    height:70%;
+    margin:5% auto;
+}
+.forgot_psw_logo_emp .forgot_psw_image_emp
+{
+    width:100%;
+    height:100%;
+    background-image:url('forgot-psw.png');
+    background-size:100% 100%;
+}
+
+/*Change your Password page*/
+
+.display .change_password
+{
+    width:30%;
+    height:70%;
+    margin:3.5% auto;
+    background-color:#C6CBEF;
+}
+.change_password .text1
+{
+    font-size:30px;
+    text-align:center;
+    padding:2%;
+    background-color:#494CA2;
+    color:#ffffff;
+}
+.change_password .change_psw_form
+{
+    padding:5%;
+}
+.change_psw_form .new_password, .change_psw_form .confirm_password
+{
+    width:70%;
+    height:12%;
+    margin-left:15%;
+    margin-top:5%;
+    text-align:center;
+    font-size:15px;
+}
+.change_psw_form .reset_psw_button
+{
+    width:28%;
+    height:12%;
+    margin-left:36%;
+    margin-top:5%;
+    font-size:17px;
+    cursor:pointer;
+    background-color:#8186D5;
+    border:1px solid #8186D5;
+    color:#ffffff;
+}
+.change_psw_form .reset_psw_button:hover
+{
+    background-color:#494CA2;
+}
+
+/*Change your Email-id page*/
+
+.display .change_email
+{
+    width:40%;
+    height:65%;
+    float:left;
+    margin-top:7.5%;
+    margin-left:6%;
+    background-color:#C6CBEF;
+}
+.change_email .text1
+{
+    width:65%;
+    font-size:25px;
+    text-align:center;
+    padding:2%;
+    border-bottom:2px solid #8186D5;
+    margin:0px auto;
+}
+.change_email .change_mail_form
+{
+    width:80%;
+    height:85%;
+    margin:0px auto;
+}
+.change_email .new_mail
+{
+    width:75%;
+    height:13%;
+    margin-left:12%;
+    margin-top:15%;
+    text-align:center;
+    font-size:15px;
+    border:none;
+    border-radius:8px;
+}
+.change_email .reset_mail_button
+{
+    width:28%;
+    height:14%;
+    margin-left:36%;
+    margin-top:7%;
+    font-size:17px;
+    cursor:pointer;
+    background-color:#494CA2;
+    border:none;
+    border-radius:8px;
+    color:#ffffff;
+}
+.change_email .reset_mail_button:hover
+{
+    background-color:#8186D5;
+}
+.right_pane .change_email_logo
+{
+    width:40%;
+    height:65%;
+    float:left;
+    margin-top:7.5%;
+    margin-left:6%;
+}
+.change_email_logo .change_email_image
+{
+    width:80%;
+    height:100%;
+    margin:0px auto;
+    background-image:url('change_email.png');
+    background-size:100% 100%;
+}
+
+/*Contact Us page*/
+
+.display .contact_us_top
+{
+    width:100%;
+    height:20%;
+    display:inline-block;
+}
+.contact_us_top .top_text
+{
+    width:38%;
+    height:100%;
+    margin:0px auto;
+}
+.contact_us_top .top_text .text1
+{
+    font-size:40px;
+    text-align:center;
+    margin-top:2%;
+}
+.contact_us_top .top_text .text2
+{
+    font-size:22px;
+    text-align:center;
+    margin-top:2%;
+}
+.contact_us_top .text3
+{
+    font-size:22px;
+    display:inline;
+}
+.display .contact_us_bottom
+{
+    width:100%;
+    height:80%;
+}
+.contact_us_bottom .contact_us_left
+{
+    width:70%;
+    height:97%;
+    float:left;
+}
+.contact_us_left .text5
+{
+    font-size:30px;
+    text-align:center;
+    margin-top:2%;
+    font-family:lucida calligraphy;
+}
+.contact_us_left .box
+{
+    width:40%;
+    height:60%;
+    float:left;
+    margin-left:8%;
+    margin-top:2%;
+    background-color:#C6CBEF;
+}
+.box .text6
+{
+    font-size:25px;
+    text-align:center;
+    background-color:#494CA2;
+    color:#ffffff;
+    padding:2%;
+}
+.box .text7
+{
+    font-size:25px;
+    text-align:center;
+    margin-top:3%;
+}
+.box .text8
+{
+    margin-left:4%;
+    color:#494CA2;
+    font-weight:bold;
+}
+.box .text10
+{
+    text-align:center;
+    font-size:20px;
+    margin-top:2%;
+}
+.box .text9
+{
+    text-align:center;
+    color:#494CA2;
+    font-size:20px;
+    font-weight:bold;
+}
+.contact_us_bottom .contact_us_right
+{
+    width:29.5%;
+    height:97%;
+    float:left;
+}
+.contact_us_right .text3
+{
+    width:72%;
+    font-size:22px;
+    text-align:center;
+    background-color:#494CA2;
+    color:#ffffff;
+    padding-top:1%;
+    padding-bottom:1%;
+    border:1px solid #800080;
+    margin-left:8%;
+}
+.contact_us_right .contact_form
+{
+    width:72%;
+    height:83%;
+    border:1px solid #494CA2;
+    display:inline-block;
+    margin-left:8%;
+}
+.contact_form .name
+{
+    width:100%;
+    height:16%;
+    margin-top:5%;
+}
+.contact_form .email, .contact_form .subject, .contact_form .submit
+{
+    width:100%;
+    height:16%;
+}
+.contact_form .name .text_name, .contact_form .email .mail, .contact_form .subject .sub
+{
+    width:80%;
+    height:71%;
+    text-align:center;
+    font-size:18px;
+    margin-left:9.5%;
+}
+.contact_form .message
+{
+    width:100%;
+    height:31%;
+}
+.contact_form .message .msg
+{
+    width:80%;
+    height:86%;
+    text-align:center;
+    font-size:18px;
+    margin-left:9.5%;
+}
+.contact_form .submit .sub
+{
+    width:40%;
+    height:72%;
+    margin-left:28%;
+    font-size:17px;
+    cursor:pointer;
+    background-color:#8186D5;
+    border:1px solid #8186D5;
+    color:#ffffff;
+}
+.contact_form .submit .sub:hover
+{
+    background-color:#494CA2;
+}
+
+/*About Us page*/
+
+.display .about_us_top
+{
+    width:100%;
+    height:15%;
+    display:inline-block;
+}
+.about_us_top .text
+{
+    font-size:40px;
+    text-align:center;
+    margin-top:2%;
+}
+.display .about_us_bottom
+{
+    width:100%;
+    height:85%;
+    display:inline-block;
+}
+.about_us_bottom .about
+{
+    width:60%;
+    height:80%;
+    margin:0px auto;
+    font-size:20px;
+    text-align:justify;
+}
+.about p
+{
+    margin-top:2%;
+}
+
+/* Index Page (After Login)*/
+
+.header_right .box
+{
+    width:82%;
+    height:100%;
+}
+.header_right .box .home_list
+{
+    width:50%;
+    height:100%;
+    float:left;
+}
+.home_list .list_home .home
+{
+    width:90%;
+    height:45%;
+    margin-top:10%;
+    margin-left:10%;
+}
+.list_home .home ul li
+{
+    width:100%;
+    height:100%;
+    display:block;
+    display:none;
+    margin-top:1px;
+}
+.list_home .home:hover ul li
+{
+    display:block;
+}
+.home_list a
+{
+    width:100%;
+    height:100%;
+    display:block;
+    text-decoration:none;
+    font-size:20px;
+    color:#ffffff;
+    line-height:30px;
+    background-color:#494CA2;
+    text-align:center;
+}
+.home_list a:hover
+{
+    background-color:#8186D5;
+}
+.header_right .logout
+{
+    width:48.5%;
+    height:100%;
+    float:right;
+}
+.header_right .logout a
+{
+    width:84%;
+    height:45%;
+    margin-top:10%;
+    float:right;
+    text-decoration:none;
+    font-size:20px;
+    color:#ffffff;
+    line-height:30px;
+    background-color:#494CA2;
+    text-align:center;
+    display:block;
+}
+.header_right .logout a:hover
+{
+    background-color:#8186D5;
+}
+
+/* Home Page*/
+
+.display .left_pane
+{
+    width:20%;
+    height:100%;
+    float:left;
+    border-right:2px solid #C6CBEF;
+}
+.left_pane .msg
+{
+    width:100%;
+    height:8%;
+    text-align:center;
+    font-size:23px;
+    margin:4% auto;
+    background-color:#494CA2;
+    color:white;
+    line-height:33px;
+}
+.left_pane .menu
+{
+    width:100%;
+    text-align:center;
+    font-size:25px;
+    display:inline-block;
+}
+.menu ul li
+{
+    margin-top:10%;
+}
+.menu ul li a
+{
+    text-decoration:none;
+}
+.menu li a:hover
+{
+    background-color:#000000;
+    color:#ffffff;
+}
+.display .right_pane
+{
+    width:79.85%;
+    height:100%;
+    float:left;
+}
+.right_pane .display_bottom .welcome_msg
+{
+    width:50%;
+    height:30%;
+    margin:0px auto;
+}
+.welcome_msg .msg
+{
+    text-align:center;
+    font-size:30px;
+}
+.right_pane .display_bottom .view_profile
+{
+    width:15%;
+    height:20%;
+    margin:10px auto;
+}
+.view_profile .view_button
+{
+    width:80%;
+    height:65%;
+    margin-left:10%;
+    font-size:18px;
+    color:#ffffff;
+    background-color:#494CA2;
+    border:1px solid #494CA2;
+    cursor:pointer;
+}
+.view_profile .view_button:hover
+{
+    background-color:#8186D5;
+}
+
+/* Edit Profile (Personal Details) Page*/
+
+.header_center ul li.option
+{
+    margin-left:3.5%;
+}
+.header_center ul li.edu_menu
+{
+    width:30%;
+    height:30%;
+}
+.header_center .edu_menu ul.menu_content li
+{
+    width:100%;
+    height:100%;
+    display:none;
+    margin:0px;
+}
+.header_center .edu_menu:hover ul.menu_content li
+{
+    display:block;
+}
+ul.menu_content a
+{
+    width:100%;
+    height:100%;
+    display:block;
+    text-decoration:none;
+    font-size:20px;
+    color:#ffffff;
+    line-height:30px;
+    background-color:#E3E7F1;
+}
+ul.menu_content a:hover
+{
+    background-color:#C6CBEF;
+}
+
+.display .right_pane .personal_detail_form
+{
+    width:84%;
+    height:98%;
+    margin:0px auto;
+}
+.personal_detail_form .personal_detail
+{
+    width:100%;
+    height:88%;
+    margin:1% auto;
+    font-size:22px;
+    border:1px solid #C6CBEF;
+}
+.personal_detail .text1
+{
+    font-size:25px;
+    text-align:center;
+    background-color:#494CA2;
+    color:#ffffff;
+    padding:5px;
+}
+.personal_detail .pd_left
+{
+    width:50%;
+    height:90%;
+    float:left;
+}
+.personal_detail .pd_form_name
+{
+    width:100%;
+    height:10%;
+    margin-top:5%;
+}
+.personal_detail .text
+{
+   float:left;
+}
+.pd_form_name .name
+{
+    width:62%;
+    height:80%;
+    margin-left:8%;
+    font-size:18px;
+}
+.personal_detail .pd_form_email
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pd_form_email .email
+{
+    width:62%;
+    height:80%;
+    margin-left:8%;
+    font-size:18px;
+}
+.personal_detail .pd_form_address
+{
+    width:100%;
+    height:20%;
+    margin-top:2%;
+}
+.pd_form_address .address
+{
+    width:62.5%;
+    height:88%;
+    margin-left:3.2%;
+    font-size:18px;
+}
+.personal_detail .pd_form_state
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pd_form_state .state
+{
+    width:62%;
+    height:80%;
+    margin-left:9.5%;
+    font-size:18px;
+}
+.personal_detail .pd_form_city
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pd_form_city .city
+{
+    width:62%;
+    height:80%;
+    margin-left:12%;
+    font-size:18px;
+}
+.personal_detail .pd_right
+{
+    width:50%;
+    height:90%;
+    float:left;
+}
+.personal_detail .pd_form_mob
+{
+    width:100%;
+    height:10%;
+    margin-top:5%;
+}
+.pd_form_mob .mob_no
+{
+    width:50%;
+    height:80%;
+    margin-left:5%;
+    font-size:18px;
+}
+.personal_detail .pd_form_dob
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pd_form_dob .dob
+{
+    width:50%;
+    height:80%;
+    margin-left:10.5%;
+    font-size:18px;
+}
+.personal_detail .pd_form_gender
+{
+    width:100%;
+    height:20%;
+    margin-top:2%;
+}
+.pd_form_gender .gender_list
+{
+    width:50%;
+    height:100%;
+    float:left;
+    margin-left:22%;
+}
+.pd_form_gender .text2
+{
+    float:left;
+}
+.pd_form_gender .gender_male
+{
+    margin-left:19.5%;
+}
+.pd_form_gender .gender_list .female
+{
+    margin-top:5%;
+}
+.pd_form_gender .gender_female
+{
+    margin-left:10.5%;
+}
+.personal_detail .pd_form_district
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pd_form_district .district
+{
+    width:50%;
+    height:80%;
+    margin-left:22%;
+    font-size:18px;
+}
+.personal_detail .pd_form_pincode
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pd_form_pincode .pincode
+{
+    width:50%;
+    height:80%;
+    margin-left:21%;
+    font-size:18px;
+}
+.personal_detail_form .save_next
+{
+    width:100%;
+    height:8%;
+}
+.personal_detail_form .save_next .save_next_button
+{
+    width:15%;
+    height:100%;
+    float:right;
+    font-size:18px;
+    color:#ffffff;
+    background-color:#494CA2;
+    border:1px solid #494CA2;
+    cursor:pointer;
+}
+.save_next .save_next_button:hover
+{
+    background-color:#8186D5;
+}
+
+/* Edit Profile (Educational Details) Page*/
+
+.display .right_pane .educational_detail_form
+{
+    width:84%;
+    height:98%;
+    margin:0px auto;
+}
+.educational_detail_form .educational_detail
+{
+    width:100%;
+    height:88%;
+    margin:1% auto;
+    font-size:23px;
+    border:1px solid #C6CBEF;
+}
+.educational_detail .text1
+{
+    font-size:25px;
+    text-align:center;
+    background-color:#494CA2;
+    color:#ffffff;
+    padding:5px;
+}
+.educational_detail .text2
+{
+    font-size:25px;
+    text-align:center;
+    font-weight:bold;
+    margin-top:2%;
+}
+.educational_detail .text
+{
+   float:left;
+}
+.educational_detail_form .save_next
+{
+    width:100%;
+    height:8%;
+}
+.educational_detail_form .save_next .save_next_button
+{
+    width:15%;
+    height:100%;
+    float:right;
+    font-size:18px;
+    color:#ffffff;
+    background-color:#494CA2;
+    border:1px solid #494CA2;
+    cursor:pointer;
+}
+.save_next .save_next_button:hover
+{
+    background-color:#8186D5;
+}
+.educational_detail_form .save_next .skip_button
+{
+    width:15%;
+    height:100%;
+    float:left;
+    margin-left:65%;
+    font-size:18px;
+    color:#ffffff;
+    background-color:#494CA2;
+    border:1px solid #494CA2;
+    cursor:pointer;
+}
+.save_next .skip_button:hover
+{
+    background-color:#8186D5;
+}
+/* Class X & XII*/
+.educational_detail .class_X_XII
+{
+    width:65%;
+    height:75%;
+    margin:0px auto;
+}
+.class_X_XII .ed_form_board
+{
+    width:85%;
+    height:13%;
+    margin-left:5%;
+    margin-top:3%;
+}
+.class_X_XII .ed_form_board .board
+{
+    width:70%;
+    height:65%;
+    margin-left:15%;
+    font-size:18px;
+}
+.class_X_XII .ed_form_year
+{
+    width:85%;
+    height:13%;
+    margin-left:5%;
+    margin-top:2%;
+}
+.class_X_XII .ed_form_year .year
+{
+    width:25%;
+    height:65%;
+    margin-left:3%;
+    font-size:16px;
+}
+.class_X_XII .ed_form_marks
+{
+    width:85%;
+    height:13%;
+    margin-left:5%;
+    margin-top:2%;
+}
+.class_X_XII .ed_form_marks .marks_scale
+{
+    width:35%;
+    height:65%;
+    margin-left:15%;
+    font-size:16px;
+}
+.class_X_XII .ed_form_marks .marks
+{
+    width:15%;
+    height:60%;
+    margin-left:2%;
+    font-size:18px;
+}
+.class_X_XII .ed_form_school
+{
+    width:85%;
+    height:13%;
+    margin-left:5%;
+    margin-top:2%;
+}
+.class_X_XII .ed_form_school .school
+{
+    width:70%;
+    height:65%;
+    margin-left:14%;
+    font-size:18px;
+}
+.class_X_XII .ed_form_education_type
+{
+    width:85%;
+    height:10%;
+    margin-left:5%;
+    margin-top:2%;
+}
+.class_X_XII .ed_form_education_type .text3
+{
+   float:left;
+   margin-left:5%;
+}
+.class_X_XII .ed_form_education_type .education_type
+{
+    float:left;
+    margin-top:1.5%;
+    margin-left:2%;
+}
+/* Class XII */
+.class_X_XII .ed_form_stream
+{
+    width:85%;
+    height:13%;
+    margin-left:5%;
+    margin-top:2%;
+}
+.class_X_XII .ed_form_stream .stream
+{
+    width:25%;
+    height:65%;
+    margin-left:13.5%;
+    font-size:16px;
+}
+/* Diploma */
+.educational_detail .diploma
+{
+    width:70%;
+    height:75%;
+    margin:0px auto;
+}
+.diploma .ed_form_status
+{
+    width:85%;
+    height:10%;
+    margin-top:3%;
+    margin-left:5%;
+}
+.diploma .ed_form_status .text3
+{
+    float:left;
+    margin-left:5%;
+}
+.diploma .ed_form_status .diploma_status
+{
+    float:left;
+    margin-top:1.5%;
+    margin-left:2%;
+}
+.diploma .ed_form_stream
+{
+    width:85%;
+    height:13%;
+    margin-left:5%;
+    margin-top:2%;
+}
+.diploma .ed_form_stream .stream
+{
+    width:62%;
+    height:60%;
+    margin-left:19.3%;
+    font-size:18px;
+}
+.diploma .ed_form_college
+{
+    width:85%;
+    height:13%;
+    margin-left:5%;
+    margin-top:2%;
+}
+.diploma .ed_form_college .college
+{
+    width:62%;
+    height:60%;
+    margin-left:19%;
+    font-size:18px;
+}
+.diploma .ed_form_start_end_year
+{
+    width:85%;
+    height:13%;
+    margin-left:5%;
+    margin-top:2%;
+}
+.diploma .ed_form_start_end_year .ed_form_start_year
+{
+    width:50%;
+    height:100%;
+    float:left;
+}
+.diploma .ed_form_start_end_year .ed_form_end_year
+{
+    width:49%;
+    height:100%;
+    float:right;
+}
+.diploma .ed_form_start_end_year .year
+{
+    width:45%;
+    height:70%;
+    margin-left:12%;
+    font-size:16px;
+    float:left;
+    margin-top:1%;
+}
+.diploma .ed_form_marks
+{
+    width:85%;
+    height:13%;
+    margin-left:5%;
+    margin-top:2%;
+}
+.diploma .ed_form_marks .marks_scale
+{
+    width:33%;
+    height:65%;
+    margin-left:12.5%;
+    font-size:16px;
+}
+.diploma .ed_form_marks .marks
+{
+    width:15%;
+    height:60%;
+    margin-left:2%;
+    font-size:18px;
+}
+.diploma .ed_form_education_type
+{
+    width:85%;
+    height:10%;
+    margin-left:5%;
+    margin-top:2%;
+}
+.diploma .ed_form_education_type .text3
+{
+   float:left;
+   margin-left:5%;
+}
+.diploma .ed_form_education_type .education_type
+{
+    float:left;
+    margin-top:1.5%;
+    margin-left:2%;
+}
+/* Graduation & Post-Graduation */
+.educational_detail .gd_pgd
+{
+    width:70%;
+    height:75%;
+    margin:0px auto;
+}
+.gd_pgd .ed_form_status
+{
+    width:85%;
+    height:10%;
+    margin-top:2%;
+    margin-left:5%;
+}
+.gd_pgd .ed_form_status .text3
+{
+    float:left;
+    margin-left:5%;
+}
+.gd_pgd .ed_form_status .graduation_status
+{
+    float:left;
+    margin-top:1.5%;
+    margin-left:2%;
+}
+.gd_pgd .ed_form_degree
+{
+    width:85%;
+    height:13%;
+    margin-left:5%;
+    margin-top:1%;
+}
+.gd_pgd .ed_form_degree .degree
+{
+    width:60%;
+    height:65%;
+    margin-left:24%;
+    font-size:18px;
+}
+.gd_pgd .ed_form_stream
+{
+    width:85%;
+    height:13%;
+    margin-left:5%;
+    margin-top:1%;
+}
+.gd_pgd .ed_form_stream .stream
+{
+    width:60%;
+    height:65%;
+    margin-left:24%;
+    font-size:18px;
+}
+.gd_pgd .ed_form_college
+{
+    width:85%;
+    height:13%;
+    margin-left:5%;
+    margin-top:1%;
+}
+.gd_pgd .ed_form_college .college
+{
+    width:60%;
+    height:65%;
+    margin-left:3%;
+    font-size:18px;
+}
+.gd_pgd .ed_form_start_end_year
+{
+    width:85%;
+    height:13%;
+    margin-left:5%;
+    margin-top:1%;
+}
+.gd_pgd .ed_form_start_end_year .ed_form_start_year
+{
+    width:50%;
+    height:100%;
+    float:left;
+}
+.gd_pgd .ed_form_start_end_year .ed_form_end_year
+{
+    width:49%;
+    height:100%;
+    float:right;
+}
+.gd_pgd .ed_form_start_end_year .year
+{
+    width:45%;
+    height:70%;
+    margin-left:5%;
+    font-size:16px;
+    float:left;
+    margin-top:1%;
+}
+.gd_pgd .ed_form_marks
+{
+    width:85%;
+    height:13%;
+    margin-left:5%;
+    margin-top:1%;
+}
+.gd_pgd .ed_form_marks .marks_scale
+{
+    width:33%;
+    height:65%;
+    margin-left:9%;
+    font-size:16px;
+}
+.gd_pgd .ed_form_marks .marks
+{
+    width:15%;
+    height:60%;
+    margin-left:2%;
+    font-size:18px;
+}
+.gd_pgd .ed_form_education_type
+{
+    width:85%;
+    height:10%;
+    margin-left:5%;
+    margin-top:1%;
+}
+.gd_pgd .ed_form_education_type .text3
+{
+   float:left;
+   margin-left:5%;
+}
+.gd_pgd .ed_form_education_type .education_type
+{
+    float:left;
+    margin-top:1.5%;
+    margin-left:2%;
+}
+
+/* Edit Profile (Internship Details) Page*/
+
+.display .right_pane .internship_detail_form
+{
+    width:84%;
+    height:98%;
+    margin:0px auto;
+}
+.internship_detail_form .internship_detail
+{
+    width:100%;
+    height:88%;
+    margin:1% auto;
+    font-size:23px;
+    border:1px solid #C6CBEF;
+}
+.internship_detail .text1
+{
+    font-size:25px;
+    text-align:center;
+    background-color:#494CA2;
+    color:#ffffff;
+    padding:5px;
+}
+.internship_detail .text
+{
+   float:left;
+}
+.internship_detail .internship
+{
+    width:65%;
+    height:85%;
+    margin:0px auto;
+}
+.internship .id_form_profile
+{
+    width:85%;
+    height:13%;
+    margin:0% auto;
+    margin-top:5%;
+}
+.internship .id_form_profile .profile
+{
+    width:62%;
+    height:60%;
+    margin-left:19.3%;
+    font-size:15px;
+}
+.internship .id_form_organization
+{
+    width:85%;
+    height:13%;
+    margin:2% auto;
+}
+.internship .id_form_organization .organization
+{
+    width:62%;
+    height:60%;
+    margin-left:7%;
+    font-size:15px;
+}
+.internship .id_form_location
+{
+    width:85%;
+    height:13%;
+    margin:2% auto;
+}
+.internship .id_form_location .location
+{
+    width:62%;
+    height:60%;
+    margin-left:15%;
+    font-size:15px;
+}
+.internship .id_form_start_date
+{
+    width:85%;
+    height:13%;
+    margin:2% auto;
+}
+.internship .id_form_start_date .start_date
+{
+    width:35%;
+    height:60%;
+    margin-left:12.5%;
+    font-size:18px;
+}
+.internship .id_form_end_date
+{
+    width:85%;
+    height:13%;
+    margin:2% auto;
+}
+.internship .id_form_end_date .end_date
+{
+    width:35%;
+    height:60%;
+    margin-left:14%;
+    font-size:18px;
+}
+
+.internship_detail_form .save_next
+{
+    width:100%;
+    height:8%;
+}
+.internship_detail_form .save_next .save_next_button
+{
+    width:15%;
+    height:100%;
+    float:right;
+    font-size:18px;
+    color:#ffffff;
+    background-color:#494CA2;
+    border:1px solid #494CA2;
+    cursor:pointer;
+}
+.save_next .save_next_button:hover
+{
+    background-color:#8186D5;
+}
+.internship_detail_form .save_next .skip_button
+{
+    width:15%;
+    height:100%;
+    float:left;
+    margin-left:5%;
+    font-size:18px;
+    color:#ffffff;
+    background-color:#494CA2;
+    border:1px solid #494CA2;
+    cursor:pointer;
+}
+.save_next .skip_button:hover
+{
+    background-color:#8186D5;
+}
+.internship_detail_form .save_next .add_button
+{
+    width:15%;
+    height:100%;
+    float:left;
+    margin-left:45%;
+    font-size:18px;
+    color:#ffffff;
+    background-color:#494CA2;
+    border:1px solid #494CA2;
+    cursor:pointer;
+}
+.save_next .add_button:hover
+{
+    background-color:#8186D5;
+}
+
+/* Profile Details (Employer) Page*/
+
+.display .right_pane .profile_detail_form
+{
+    width:84%;
+    height:98%;
+    margin:0px auto;
+}
+.profile_detail_form .profile_detail
+{
+    width:100%;
+    height:88%;
+    margin:1% auto;
+    font-size:22px;
+    border:1px solid #C6CBEF;
+}
+.profile_detail .text1
+{
+    font-size:25px;
+    text-align:center;
+    background-color:#494CA2;
+    color:#ffffff;
+    padding:5px;
+}
+.profile_detail .pd_left
+{
+    width:55%;
+    height:90%;
+    float:left;
+}
+.profile_detail .pd_form_compname
+{
+    width:100%;
+    height:10%;
+    margin-top:4%
+}
+.profile_detail .text
+{
+   float:left;
+}
+.pd_form_compname .comp_name
+{
+    width:55%;
+    height:80%;
+    margin-left:8.8%;
+    font-size:18px;
+}
+.profile_detail .pd_form_compemail
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pd_form_compemail .comp_email
+{
+    width:55%;
+    height:80%;
+    margin-left:8.6%;
+    font-size:18px;
+}
+.profile_detail .pd_form_compmob
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pd_form_compmob .comp_mob_no
+{
+    width:55%;
+    height:80%;
+    margin-left:9.2%;
+    font-size:18px;
+}
+.profile_detail .pd_form_CIN
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pd_form_CIN .comp_cin
+{
+    width:55%;
+    height:80%;
+    margin-left:31.5%;
+    font-size:18px;
+}
+.profile_detail .pd_form_compRegNO
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pd_form_compRegNO .comp_reg_no
+{
+    width:50%;
+    height:80%;
+    margin-left:4%;
+    font-size:18px;
+}
+.profile_detail .pd_form_compDOI
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pd_form_compDOI .comp_doi
+{
+    width:35%;
+    height:80%;
+    margin-left:3%;
+    font-size:18px;
+}
+.profile_detail .pd_form_compindustry
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pd_form_compindustry .comp_industry_type
+{
+    width:50%;
+    height:80%;
+    margin-left:18%;
+    font-size:18px;
+}
+.profile_detail .pd_right
+{
+    width:45%;
+    height:90%;
+    float:left;
+}
+.profile_detail .pd_form_compaddress
+{
+    width:100%;
+    height:23%;
+    margin-top:5%;
+}
+.pd_form_compaddress .comp_address
+{
+    width:58%;
+    height:88%;
+    margin-left:4.8%;
+    font-size:18px;
+}
+.profile_detail .pd_form_comp_country
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pd_form_comp_country .comp_country
+{
+    width:57%;
+    height:80%;
+    margin-left:19.2%;
+    font-size:18px;
+}
+.profile_detail .pd_form_comp_state
+{
+    width:100%;
+    height:10%;
+    margin-top:2.5%;
+}
+.pd_form_comp_state .comp_state
+{
+    width:57%;
+    height:80%;
+    margin-left:26%;
+    font-size:18px;
+}
+.profile_detail .pd_form_comp_district
+{
+    width:100%;
+    height:10%;
+    margin-top:2.5%;
+}
+.pd_form_comp_district .comp_district
+{
+    width:57%;
+    height:80%;
+    margin-left:20.5%;
+    font-size:18px;
+}
+.profile_detail .pd_form_comp_city
+{
+    width:100%;
+    height:10%;
+    margin-top:2.5%;
+}
+.pd_form_comp_city .comp_city
+{
+    width:57%;
+    height:80%;
+    margin-left:28.5%;
+    font-size:18px;
+}
+.profile_detail .pd_form_comp_pincode
+{
+    width:100%;
+    height:10%;
+    margin-top:2.5%;
+}
+.pd_form_comp_pincode .comp_pincode
+{
+    width:57%;
+    height:80%;
+    margin-left:19%;
+    font-size:18px;
+}
+.profile_detail_form .save
+{
+    width:100%;
+    height:8%;
+}
+.profile_detail_form .save .save_button
+{
+    width:15%;
+    height:100%;
+    float:right;
+    font-size:18px;
+    color:#ffffff;
+    background-color:#494CA2;
+    border:1px solid #494CA2;
+    cursor:pointer;
+}
+.save .save_button:hover
+{
+    background-color:#8186D5;
+}
+
+/* Post New Internship Page*/
+
+.display .right_pane .post_internship_detail_form
+{
+    width:84%;
+    height:98%;
+    margin:0px auto;
+}
+.post_internship_detail_form .post_internship_detail
+{
+    width:100%;
+    height:88%;
+    margin:1% auto;
+    font-size:22px;
+    border:1px solid #C6CBEF;
+}
+.post_internship_detail .text1
+{
+    font-size:25px;
+    text-align:center;
+    background-color:#494CA2;
+    color:#ffffff;
+    padding:5px;
+}
+.post_internship_detail .pd_left
+{
+    width:55%;
+    height:90%;
+    float:left;
+}
+.post_internship_detail .pi_form_internship_id
+{
+    width:100%;
+    height:10%;
+    margin-top:4%;
+}
+.post_internship_detail .text
+{
+   float:left;
+}
+.pi_form_internship_id .internship_id
+{
+    width:55%;
+    height:80%;
+    margin-left:8%;
+    font-size:18px;
+}
+.post_internship_detail .pi_form_internship_profile
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pi_form_internship_profile .internship_profile
+{
+    width:55%;
+    height:80%;
+    margin-left:5%;
+    font-size:18px;
+}
+.post_internship_detail .pi_form_internship_location
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pi_form_internship_location .internship_location
+{
+    width:55%;
+    height:80%;
+    margin-left:21.5%;
+    font-size:18px;
+}
+.post_internship_detail .pi_form_internship_skill
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pi_form_internship_skill .internship_skill
+{
+    width:55%;
+    height:80%;
+    margin-left:10%;
+    font-size:18px;
+}
+.post_internship_detail .pi_form_internship_responsibilities
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pi_form_internship_responsibilities .internship_responsibilities
+{
+    width:55%;
+    height:80%;
+    margin-left:8%;
+    font-size:18px;
+}
+.post_internship_detail .pi_form_internship_others_skill
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pi_form_internship_others_skill .internship_others_skill
+{
+    width:49.5%;
+    height:80%;
+    margin-left:2%;
+    font-size:18px;
+}
+.post_internship_detail .pi_form_internship_posting_date
+{
+    width:100%;
+    height:10%;
+    margin-top:2%;
+}
+.pi_form_internship_posting_date .internship_posting_date
+{
+    width:35%;
+    height:80%;
+    margin-left:15.5%;
+    font-size:18px;
+}
+.post_internship_detail .pd_right
+{
+    width:45%;
+    height:90%;
+    float:left;
+}
+.post_internship_detail .pi_form_internship_experience
+{
+    width:100%;
+    height:10%;
+    margin-top:5%;
+}
+.pi_form_internship_experience .internship_experience
+{
+    width:50%;
+    height:80%;
+    margin-left:6%;
+    font-size:18px;
+}
+.post_internship_detail .pi_form_internship_duration
+{
+    width:100%;
+    height:10%;
+    margin-top:2.5%
+}
+.pi_form_internship_duration .internship_duration
+{
+    width:50%;
+    height:80%;
+    margin-left:11%;
+    font-size:18px;
+}
+.post_internship_detail .pi_form_internship_stipend
+{
+    width:100%;
+    height:10%;
+    margin-top:2.5%;
+}
+.pi_form_internship_stipend .internship_stipend
+{
+    width:50%;
+    height:80%;
+    margin-left:14%;
+    font-size:18px;
+}
+.post_internship_detail .pi_form_internship_description
+{
+    width:100%;
+    height:35%;
+    margin-top:2.5%;
+}
+.pi_form_internship_description .internship_description
+{
+    width:55%;
+    height:100%;
+    margin-left:5%;
+    font-size:18px;
+}
+.post_internship_detail_form .post
+{
+    width:100%;
+    height:8%;
+}
+.post_internship_detail_form .post .post_button
+{
+    width:15%;
+    height:100%;
+    float:right;
+    font-size:18px;
+    color:#ffffff;
+    background-color:#494CA2;
+    border:1px solid #494CA2;
+    cursor:pointer;
+}
+.post .post_button:hover
+{
+    background-color:#8186D5;
+}
+
+/*View Profile Page (Employer)*/
+
+.display .right_pane .view_profile_detail
+{
+    width:84%;
+    height:88%;
+    margin:2% auto;
+    font-size:22px;
+    border:1px solid #C6CBEF;
+}
+.view_profile_detail .text
+{
+    display:inline;
+    font-weight:bold;
+    margin-left:2%;
+}
+.view_profile_detail .text1
+{
+    display:inline;
+    margin-left:2%;
+}
+.view_profile_detail .pd_left
+{
+    width:54%;
+    height:100%;
+    float:left;
+    border-right:2px solid #8186D5;
+}
+.pd_left .pd_comp_name
+{
+    width:100%;
+    height:15%;
+    margin-top:1.5%;
+}
+.pd_left .pd_comp_email
+{
+    width:100%;
+    height:15%;
+}
+.pd_left .pd_comp_mob
+{
+    width:100%;
+    height:12%;
+}
+.pd_left .pd_comp_CIN
+{
+    width:100%;
+    height:12%;
+}
+.pd_left .pd_comp_RegNO
+{
+    width:100%;
+    height:15%;
+}
+.pd_left .pd_comp_industry
+{
+    width:100%;
+    height:15%;
+}
+.pd_left .pd_comp_DOI
+{
+    width:100%;
+    height:11%;
+}
+.view_profile_detail .pd_right
+{
+    width:45%;
+    height:100%;
+    float:left;
+}
+.pd_right .pd_comp_address
+{
+    width:100%;
+    height:30.5%;
+    margin-top:1.5%;
+}
+.pd_right .pd_comp_country
+{
+    width:100%;
+    height:12%;
+}
+.pd_right .pd_comp_state
+{
+    width:100%;
+    height:12%;
+}
+.pd_right .pd_comp_district
+{
+    width:100%;
+    height:15%;
+}
+.pd_right .pd_comp_city
+{
+    width:100%;
+    height:15%;
+}
+.pd_right .pd_comp_pincode
+{
+    width:100%;
+    height:11%;
+}
+
+/*View List Posted Internship Page (Employer)*/
+
+.display .right_pane .list_internship_detail
+{
+    width:93%;
+    height:98%;
+    margin-top:5px;
+    overflow:scroll;
+}
+.list_internship_detail .list_internship_table
+{
+    width:100%;
+    height:100%;
+    font-size:18px;
+}
+.list_internship_table tr td
+{
+    text-align:center;
+}
+.list_internship_table tr td a
+{
+    text-decoration:none;
+    color:#494CA2;
+    font-weight:bold;
+}
+.list_internship_table tr td a p:hover
+{
+    text-decoration:underline;
+}
+.list_internship_table tr td a span:hover
+{
+    text-decoration:none;
+    color: red;
+}
+
+/*View Posted Internship Page (Employer,Student)*/
+
+.display .right_pane .view_internship_detail
+{
+    width:84%;
+    height:92%;
+    margin:1% auto;
+    font-size:22px;
+    border:1px solid #C6CBEF;
+    overflow:scroll;
+}
+.view_internship_detail .text
+{
+    display:inline;
+    font-weight:bold;
+    margin-left:2%;
+}
+.view_internship_detail .text1
+{
+    display:inline;
+    margin-left:2%;
+}
+.view_internship_detail .pd_left
+{
+    width:54%;
+    height:100%;
+    float:left;
+    border-right:2px solid #8186D5;
+}
+.pd_left .id_code
+{
+    width:100%;
+    height:10%;
+    margin-top:1.5%;
+}
+.pd_left .id_profile
+{
+    width:100%;
+    height:12%;
+}
+.pd_left .id_location
+{
+    width:100%;
+    height:10%;
+}
+.pd_left .id_skill
+{
+    width:100%;
+    height:17.5%;
+}
+.pd_left .id_responsibility
+{
+    width:100%;
+    height:17.5%;
+}
+.pd_left .id_other_skill
+{
+    width:100%;
+    height:15%;
+}
+.pd_left .id_dop
+{
+    width:100%;
+    height:8%;
+}
+.view_internship_detail .pd_right
+{
+    width:45.5%;
+    height:100%;
+    float:left;
+}
+.pd_right .id_experience
+{
+    width:100%;
+    height:10%;
+    margin-top:1.5%;
+}
+.pd_right .id_duration
+{
+    width:100%;
+    height:10%;
+}
+.pd_right .id_stipend
+{
+    width:100%;
+    height:10%;
+}
+.pd_right .id_description
+{
+    width:100%;
+    height:66.5%;
+}
+.pd_left .id_name
+{
+    width:100%;
+    height:10%;
+}
+.pd_left .id_email
+{
+    width:100%;
+    height:10%;
+}
+
+/*View Profile Page*/
+
+.display .right_pane .view_profile_detail_stu
+{
+    width:84%;
+    height:86%;
+    margin:1% auto;
+    font-size:22px;
+    border:1px solid #C6CBEF;
+}
+.view_profile_detail_stu .text2
+{
+    font-size:25px;
+    text-align:center;
+    background-color:#494CA2;
+    color:#ffffff;
+    padding:5px;
+}
+.view_profile_detail_stu .text
+{
+    display:inline;
+    font-weight:bold;
+    margin-left:2%;
+}
+.view_profile_detail_stu .text1
+{
+    display:inline;
+    margin-left:2%;
+}
+.view_profile_detail_stu .pd_left
+{
+    width:50%;
+    height:90.5%;
+    float:left;
+    border-right:2px solid #8186D5;
+}
+.view_profile_detail_stu .pd_right
+{
+    width:49%;
+    height:90.5%;
+    float:left;
+}
+.right_pane .next
+{
+    width:84%;
+    height:8%;
+    margin:0% auto;
+}
+.next .next_button
+{
+    width:15%;
+    height:100%;
+    float:right;
+    font-size:18px;
+    color:#ffffff;
+    background-color:#494CA2;
+    border:1px solid #494CA2;
+    cursor:pointer;
+}
+.next .back_button
+{
+    width:15%;
+    height:100%;
+    float:left;
+    font-size:18px;
+    color:#ffffff;
+    background-color:#494CA2;
+    border:1px solid #494CA2;
+    cursor:pointer;
+}
+.next .next_button:hover,.next .back_button:hover
+{
+    background-color:#8186D5;
+}
+
+/*(Student-Personal Details)*/
+
+.pd_left .pd_stu_name
+{
+    width:100%;
+    height:15%;
+    margin-top:2%;
+}
+.pd_left .pd_stu_email
+{
+    width:100%;
+    height:15%;
+}
+.pd_left .pd_stu_address
+{
+    width:100%;
+    height:30%;
+}
+.pd_left .pd_stu_state
+{
+    width:100%;
+    height:15%;
+}
+.pd_left .pd_stu_city
+{
+    width:100%;
+    height:15%;
+}
+.pd_right .pd_stu_mob
+{
+    width:100%;
+    height:15%;
+    margin-top:2%;
+}
+.pd_right .pd_stu_dob
+{
+    width:100%;
+    height:15%;
+}
+.pd_right .pd_stu_gender
+{
+    width:100%;
+    height:15%;
+}
+.pd_right .pd_stu_district
+{
+    width:100%;
+    height:15%;
+}
+.pd_right .pd_stu_pincode
+{
+    width:100%;
+    height:15%;
+}
+
+/*(Student-Educational Details)*/
+
+.view_profile_detail_stu .text3
+{
+    font-size:25px;
+    text-align:center;
+    font-weight:bold;
+    margin-top:2%;
+}
+.view_profile_detail_stu .ed
+{
+    width:65%;
+    height:75%;
+    margin:0px auto;
+}
+.ed .ed_stu_board
+{
+    width:100%;
+    height:15%;
+    margin-top:3%;
+}
+.ed .ed_stu_year
+{
+    width:100%;
+    height:15%;
+}
+.ed .ed_stu_marks
+{
+    width:100%;
+    height:15%;
+}
+.ed .ed_stu_school
+{
+    width:100%;
+    height:20%;
+}
+.ed .ed_stu_education_type
+{
+    width:100%;
+    height:10%;
+}
+.ed .ed_stu_stream
+{
+    width:100%;
+    height:15%;
+}
+.ed .ed_stu_status
+{
+    width:100%;
+    height:15%;
+}
+.ed .ed_stu_degree
+{
+    width:100%;
+    height:15%;
+}
+.ed .ed_stu_college
+{
+    width:100%;
+    height:15%;
+}
+
+/*View internship (student)*/
+
+.view_profile_detail_stu .view_internship_table
+{
+    width:100%;
+    height:90%;
+    margin-top:5px;
+    font-size:20px;
+}
+.view_internship_table tr td
+{
+    text-align:center;
+}
+.view_internship_table tr td a
+{
+    text-decoration:none;
+    color:#494CA2;
+    font-weight:bold;
+}
+.view_internship_table tr td a:hover
+{
+    text-decoration:underline;
+}
+
+/*Apply form*/
+
+.display .right_pane .apply_form
+{
+    width:35%;
+    height:85%;
+    margin-top:2%;
+    border:2px solid #494CA2;
+    float:left;
+    margin-left:9.5%;
+}
+.apply_form .text1
+{
+    width:100%;
+    height:10%;
+    font-size:25px;
+    text-align:center;
+    padding-top:5px;
+    background-color:#494CA2;
+    color:#ffffff;
+}
+.apply_form .text,.apply_form .text2
+{
+    font-size:22px;
+    margin-left:8%;
+    margin-top:3%;
+}
+.apply_form .text2
+{
+    font-weight:bold;
+}
+.apply_form .apply_form_name,.apply_form_email,.apply_form_mob
+{   
+    width:100%;
+    height:20%;
+}
+.apply_form_name .name,.apply_form_email .email,.apply_form_mob .mob
+{
+    width:80%;
+    height:35%;
+    margin-left:8%;
+    margin-top:2%;
+    font-size:18px;
+}
+.apply_form .apply
+{
+    width:100%;
+    height:11%;
+}
+.apply .apply_button
+{
+    width:20%;
+    height:85%;
+    margin-left:40%;
+    margin-top:8%;
+    font-size:18px;
+    color:#ffffff;
+    background-color:#494CA2;
+    border:1px solid #494CA2;
+    cursor:pointer;
+}
+.apply .apply_button:hover
+{
+    background-color:#8186D5;
+}
+.display .right_pane .mssg
+{
+    text-align:center;
+    font-size:30px;
+    margin-top:3%;
+    color:red;
+}
+
+/*View List of Applicants Page (Employer)*/
+
+.display .right_pane .list_applicants_detail
+{
+    width:93%;
+    height:91%;
+    margin-top:5px;
+    overflow:auto;
+}
+.list_applicants_detail .text
+{
+    width:100%;
+    height:8%;
+    background-color:#494CA2;
+    color:#ffffff;
+    text-align:center;
+    font-size:28px;
+}
+.list_applicants_detail .list_applicants_table
+{
+    width:100%;
+    height:100%;
+    font-size:16px;
+    border-collapse: collapse;
+    border-color: gray;
+}
+.list_applicants_table tr th
+{
+    background-color: #E3E7F1;
+}
+.list_applicants_table tr:nth-child(even)
+{
+    background-color: #dadfeb;
+}
+.list_applicants_table tr:hover
+{
+    background-color:#d6d4d4;
+}
+.list_applicants_table tr td
+{
+    text-align:center;
+}
+.list_applicants_table tr td a
+{
+    text-decoration:none;
+    color:#494CA2;
+    font-weight:bold;
+}
+.list_applicants_table tr td a:hover
+{
+    text-decoration:underline;
+}
+
+/* Admin Login Page*/
+
+.display_login_bottom .admin_log_form
+{
+    width:30%;
+    height:80%;
+    border:2px solid #800080;
+    margin:5% auto;
+}
+.display_login_bottom .logform
+{
+    width:100%;
+    height:90%;
+}
+.logform .user_id, .logform .password
+{
+    width:70%;
+    height:12%;
+    text-align:center;
+    margin-left:15%;
+    margin-top:8%;
+    font-size:18px;
+}
+.logform .login_button
+{
+    width:30%;
+    height:12%;
+    margin-left:35%;
+    margin-top:15%;
+    font-size:17px;
+    cursor:pointer;
+    background-color:#8186D5;
+    border:1px solid #8186D5;
+    color:#ffffff;
+}
+.logform .login_button:hover
+{
+    background-color:#494CA2;
+}
+
+/*Admin home page*/
+
+.header_center ul li
+{
+    float:left;
+    font-size:18px;
+    margin-top:8%;
+    margin-left:10%;
+}
+.header_center ul li a
+{
+    color:#800080;
+    text-decoration:none;
+}
+.header_center ul li a:hover
+{
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+/*Admin Report*/
+
+.display .report
+{
+    width:88%;
+    height:100%; 
+    margin:0px auto;
+    overflow:scroll;
+}
+.report .text
+{
+    width:100%;
+    height:7%; 
+    text-align:center;
+    font-size:25px;
+    background-color:#494CA2;
+    color:#ffffff;
+}
+.report .report_table
+{
+    width:100%;
+    height:100%;
+    font-size:18px;
+    
+}
+.report_table tr td
+{
+    text-align:center;
+}
+
+/*Result of Search page*/
+
+.display .search_list
+{
+    width:100%;
+    height:100%;
+    overflow:auto;
+}
+.search_list table
+{
+    margin-left:6%;
+    font-size:20px;
+}
+.search_list tr td.text
+{
+    font-weight:bold; 
+    text-decoration:underline;
+}
+.click
+{
+    font-size:20px;
+    color:#ffffff;
+    background-color:#494CA2;
+    border:1px solid #494CA2;
+    cursor:pointer;
+    text-decoration:none;
+}
+.click:hover
+{
+    background-color:#8186D5;
+}
+
+/* Resume Upload */
+
+.display .right_pane .resume_detail_form
+{
+    width:84%;
+    height:98%;
+    margin:0px auto;
+}
+.resume_detail_form .resume_detail
+{
+    width:100%;
+    height:88%;
+    margin:1% auto;
+    border:1px solid #C6CBEF;
+}
+.resume_detail .text1
+{
+    font-size:25px;
+    text-align:center;
+    background-color:#494CA2;
+    color:#ffffff;
+    padding:5px;
+}
+.resume_detail .resume
+{
+    font-size:20px;
+    margin-left:2%;
+}
+.resume p, .resume div
+{
+    margin-top:2%;
+}
+.resume input[type='submit']
+{
+    cursor:pointer;
+    width:11.5%;
+}
+.resume span a
+{
+    text-decoration: none;
+    color:blue;
+}
+.resume span a:hover
+{
+    text-decoration: underline;
+    color:grey;
+}

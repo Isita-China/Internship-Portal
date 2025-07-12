@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="sheet.css">
+        <script src="validation.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+
+                <div class="header_left">
+                    <div class="header_text">
+                        <a href="index.html">Intern House</a>
+                    </div>
+                </div>
+
+                <div class="header_center">
+
+                </div>
+
+                <div class="header_right">
+                    <div class="log_reg">
+                        <ul class="list_log_reg">
+                            <li class="log">
+                                <a href="login.html">Login</a>
+                            </li>	
+
+                            <li class="reg">		
+                                <a href="">Register</a>
+                                <ul>
+                                    <li>
+                                        <a href="register_student.html">as a Student</a>
+                                    </li>
+                                    <li>
+                                        <a href="register_employer.html">as a Employer</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="display">
+
+                <div class="reg_left">
+                    <div class="reg_left_top">
+                        <span class="reg_text">Hire the best Interns</span>
+                    </div>
+
+                    <div class="reg_left_bottom">
+                        <div class="reg_emp_logo">
+                            <div class="reg_emp_image"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reg_right">
+
+                    <form class="emp_reg_form" name="emp_reg_form" onsubmit="return emp_reg_validation()" method="POST" action="register_employer.jsp">
+                        <div class="reg_form">
+
+                            <div class="reg_form_email">
+                                <span class="text1">Official Email Id</span>
+                                <input class="email" type="text" name="email" placeholder="name@company_name.com">
+                            </div>
+
+                            <div class="reg_form_psw">
+                                <span class="text2">Password</span>
+                                <input class="password" type="password" name="password" placeholder="Minimum 8 characters">
+                            </div>
+
+                            <div class="reg_form_name">
+                                <span class="text3">Company Name</span>
+                                <input class="comp_name" type="text" name="comp_name">
+                            </div>
+
+                            <div class="reg_form_mob">
+                                <span class="text4">Mobile Number</span>
+                                <input class="mob_no" type="text" name="mob_no">
+                            </div>
+
+                            <input class="reg_button" type="submit" name="reg_button" value="Register">
+                        </div>
+
+                        <div class="regform_bottom_text">
+                            <span class="text5">
+                                By registering, you agree to the <a href="terms&condition.html">Terms and Conditions.</a>
+                            </span>
+
+                            <p class="text6">Already registered? <a href="login.html">Login</a></p>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="footer">
+
+                <div class="footer_left">
+                    <div class="footer_about_list">
+                        <ul class="about_list">
+                            <li class="top">Intern House</li>
+                            <li><a href="about_us.html">About us</a></li>
+                            <li><a href="terms&condition.html">Terms & Conditions</a></li>
+                            <li><a href="contact_us.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer_center">
+                    <div class="footer_stream_list">
+                        <ul class="stream_list">
+                            <li class="top">Internship by Stream</li>
+                            <li><a href="">Computer Science Internship</a></li>
+                            <li><a href="">Marketing Internship</a></li>
+                            <li><a href="">Finance Internship</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer_right">
+                    <div class="footer_text">&copy; Copyright 2022 Intern House</div>
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+</html>
